@@ -1,0 +1,49 @@
+-- Pograming in mainly about Transformation and Managing Complexities
+   -- i.e., Manipulation, and in some cases, Creation of Information
+--In the above process, there are complexities that arive, programing is also about handling those complexities
+   -- the above can be done through DRY coding
+      -- To a large extent, DRY coding is enabled by Abstraction
+
+==================================
+INPUT --> PROCESSING --> OUTPUT     --> To achieve this process, for Input and Output, MEMORY is required
+==================================
+
+Memory is of two broad kinds:
+  -- RAM  -- this is where DS helps
+  -- HD   -- file manipulatons, etc.
+
+*******************************************************************************************************************
+Abstraction can be applied on any field which deals with Information
+
+Abstraction : Abstraction is the process of taking away or removing charecteristics from something, in order to reduce it               to a set of 'essesntial charecteristics'.
+
+Abstraction can be at multiple layers (or levels)
+  -- these levels should be properly defined and managed well   
+*******************************************************************************************************************
+
+
+LIST (it is a sequenced collection, and so is a string)
+----
+.append
+.add for insertion
+for loop with indexing
+
+DICT (not a sequence, it is a collection)
+----
+x={} # empty dict
+x['name']='bijit'
+x[name]
+for k,v in dict.items():
+
+
+TUPLE (it is a sequenced collection)
+-----
+x=(1,2,3,'r',4,'e')
+indexing for retrieval
+it is immutable
+
+SET (not a sequence, it is a collection)
+---
+x={}
+a.add(1)
+for loop: for k in x

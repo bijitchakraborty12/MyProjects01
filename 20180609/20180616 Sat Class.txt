@@ -1,0 +1,79 @@
+DRY - Dont Repeat Yourself		--> Recommended
+WET - Write Everything Twice		--> NOT Recommended
+
+templating
+----------
+this helps in being DRY in coding
+ 
+Use templating as much as possible so that you can abstract out the more common portions of your strings and you are able to write as DRY code as possible.
+
+DRY code helps in better maintenence
+
+-> Collection - a collection of items or objects on which a loop can be run (all Data structures and Strings are Collections)
+   
+-> Sequence - is a collection which preserves it's order (List, Set and Tuple are Sequences)
+
+
+Data Structures
+---------------
+Why DS?
+------
+ - Storage
+ - Retrieval
+ - Transformation
+ 
+
+TYPES IF DATA STRUCTURES:
+-------------------------
+1. LIST - is a Sequence
+   
+   -It be can a collection of any number of similar or dissimillar objects or values-
+   - Every item in a list also containsa pointer to the next item
+   - It's implementation is simmillar to a Linked List
+   - It is mutable
+
+2. DICTIONARY
+   - it is a collection of items stored in a key-value paired fashion       
+   - it is MUTABLE
+ 
+3. SET - is a sequence 
+   - it is the implementation of mathematical concept of Sets
+   - Thus, the set operations can be performed on these
+   - It should contain only UNIQUE values
+   - MUTABLE
+
+4. TUPLE - is a sequence
+   - it is a collection of UNIQUE items
+   - it is IMMUTABLE
+   - Thus, once defined, it cannot be altered
+   - an use case of this can be to write configurations
+
+
+1. LIST
+--------
+creating a list: 
+
+x=[1,2,3]
+b=[1,{'b',2},3]
+
+Note: an array is a contiguous (i.e., clubbed together in a serial fashion) blocks of memory
+Python also suports arrays, but is not very frequently used. Lists are ebough
+ 
+
+2. DICTIONARY
+-------------
+    - Example:
+      x={'name':'bijit','address':'marathahalli}
+    - The keys should be unique, but values could be repititive
+ 
+3. SET
+------
+    - Example:
+      x={1,2,3}
+
+4. TUPLE
+--------
+    - Example:
+      x=(1,2,3)
+
+
